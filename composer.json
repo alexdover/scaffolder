@@ -1,0 +1,25 @@
+{
+    "name": "alexdover/scaffolder",
+    "description": "Laravel Scaffolding Application.",
+    "keywords": ["laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Dover",
+            "email": "me@alexdover.co.uk"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"Alexdover\\Scaffolder\\": "src/"
+		}
+	},
+	"require": {
+		"symfony/console": "~2.3",
+		"symfony/yaml": "2.5.*"
+	},
+	"bin": [
+		"scaffolder"
+	],
+	"minimum-stability": "stable"
+}
